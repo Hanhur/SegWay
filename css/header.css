@@ -1,0 +1,31 @@
+.header
+{
+    background-color: var(--grey);
+}
+
+.menu_nav
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 0;
+}
+
+.menu_list
+{
+    display: flex;
+    align-items: center;
+    gap: 0 24px;
+}
+
+.menu_social
+{
+    display: flex;
+    align-items: center;
+    gap: 0 24px;
+}
+
+.menu_social-img
+{
+    display: flex;
+    justify-content: center;
+}

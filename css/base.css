@@ -1,0 +1,71 @@
+html 
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before
+{
+    box-sizing: inherit;
+}
+
+a
+{
+    color: inherit;
+    text-decoration: none;
+}
+
+button 
+{
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    /* text-transform: uppercase; */
+    cursor: pointer;
+}
+
+ul 
+{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+body 
+{
+    font-family: 'Proxima Nova', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 0.02em;
+    color: var(--white); 
+}
+
+@font-face 
+{
+    font-family: 'Proxima Nova';
+    src: url('../fonts/proximanova-regular.otf') format('otf');
+    src: url('../fonts/proximanova-bold.otf') format('otf');
+    src: url('../fonts/proximanova-light.otf') format('otf');
+    src: url('../fonts/proximanova-semibold.otf') format('otf');
+}
+
+:root 
+{
+    --white: #FFFFFF;
+    --blue: #009eff;
+    --grey: #323941;
+    --grey-1: #C6C6C6;
+    --grey-2: #999999;
+    --grey-3: #32393F;
+    --green: #6ACD68;
+}
+
+.container 
+{
+    max-width: 1048px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
