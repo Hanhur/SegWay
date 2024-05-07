@@ -69,10 +69,45 @@
     background-color: var(--grey);
 }
 
+.wrapper-content
+{
+    border-bottom: 2px solid var(--grey-2);
+}
+
 .category-1_list
 {
     display: flex;
     justify-content: space-between;
+}
+
+.category-1_item,
+.category-2_item
+{
+    padding: 15px 35px;
+    width: 137px;
+    height: 130px;
+}
+
+.category-1_img,
+.category-2_img
+{
+    height: 80px;
+    margin-bottom: 5px;
+}
+
+.category-1_text,
+.category-2_text
+{
+    white-space: nowrap;
+    text-transform: uppercase;
+}
+
+.category-1_link,
+.category-2_link
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .category-2_list
