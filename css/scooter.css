@@ -1,0 +1,60 @@
+.scooter_inner
+{
+    margin-top: 42px;
+}
+
+.scooter_btn
+{
+    font-size: 13px;
+    color: var(--green);
+    border: 2px solid var(--green);
+    padding: 10px 30px;
+    margin-bottom: 11px;
+}
+
+.scooter_title
+{
+    font-size: 80px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--grey);
+    width: 567px;
+    line-height: 87%;
+    margin-bottom: 13px;
+}
+
+.scooter_box
+{
+    box-sizing: border-box;
+    border: 2px solid rgb(153, 153, 153);
+    padding: 23px 20px;
+    width: 542px;
+}
+
+.scooter_box-text
+{
+    color: var(--grey-2);
+    margin-bottom: 8px;
+}
+
+.scooter_box-text span
+{
+    color: var(--grey);
+}
+
+.scooter_input
+{
+    width: 160px;
+    height: 36px;
+    border: 1px solid rgb(153, 153, 153);
+}
+
+.scooter_input::placeholder
+{
+    font-family: 'Proxima Nova', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.2;
+    color: var(--grey);
+    text-align: center;
+}

@@ -21,6 +21,7 @@ a
 button 
 {
     padding: 0;
+    margin: 0;
     border: none;
     background-color: transparent;
     /* text-transform: uppercase; */
@@ -34,7 +35,7 @@ ul
     list-style: none;
 }
 
-p, h1, h2, h3, h4, h5, h6 
+p, h1, h2, h3, h4, h5, h6
 {
     padding: 0;
     margin: 0;

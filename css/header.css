@@ -88,6 +88,13 @@
     height: 130px;
 }
 
+.category-1_item:active,
+.category-2_item:active
+{
+    background-color: var(--blue);
+}
+
+
 .category-1_img,
 .category-2_img
 {
@@ -114,4 +121,16 @@
 {
     display: flex;
     justify-content: space-between;
+}
+/* ============================================================================== */
+.shipping
+{
+    padding: 20px 0;
+    background-color: var(--blue);
+}
+
+.shipping-text
+{
+    text-align: center;
+    text-transform: uppercase;
 }
