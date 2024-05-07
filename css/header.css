@@ -1,4 +1,4 @@
-.header
+.header-container
 {
     background-color: var(--grey);
 }
@@ -28,4 +28,55 @@
 {
     display: flex;
     justify-content: center;
+}
+/* ========================================================= */
+.menu-logo
+{
+    display: flex;
+    align-items: center;
+    padding: 18px 20px;
+}
+
+.menu_autor
+{
+    display: flex;
+    gap: 0 13px;
+}
+.menu_logo-images
+{
+    padding-right: 550px;
+}
+
+.menu_title
+{
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-top: 8px;
+    color: var(--grey);
+}
+.menu_text
+{
+    font-size: 13px;
+    width: 95px;
+    text-decoration: underline;
+    text-transform: lowercase;
+    color: var(--blue);
+}
+/* =================================================================================== */
+.wrapper
+{
+    background-color: var(--grey);
+}
+
+.category-1_list
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.category-2_list
+{
+    display: flex;
+    justify-content: space-between;
 }

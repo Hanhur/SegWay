@@ -34,12 +34,18 @@ ul
     list-style: none;
 }
 
+p, h1, h2, h3, h4, h5, h6 
+{
+    padding: 0;
+    margin: 0;
+}
+
 body 
 {
     font-family: 'Proxima Nova', sans-serif;
     font-weight: 400;
     font-size: 18px;
-    letter-spacing: 0.02em;
+    line-height: 1.2;
     color: var(--white); 
 }
 
