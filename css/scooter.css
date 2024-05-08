@@ -1,3 +1,8 @@
+.scooter_contents
+{
+    display: flex;
+}
+
 .scooter_inner
 {
     margin-top: 42px;
@@ -29,6 +34,7 @@
     border: 2px solid rgb(153, 153, 153);
     padding: 23px 20px;
     width: 542px;
+    margin-bottom: 20px;
 }
 
 .scooter_box-text
@@ -49,6 +55,11 @@
     border: 1px solid rgb(153, 153, 153);
 }
 
+.scooter_form
+{
+    margin-bottom: 20px;
+}
+
 .scooter_input::placeholder
 {
     font-family: 'Proxima Nova', sans-serif;
@@ -57,4 +68,84 @@
     line-height: 1.2;
     color: var(--grey);
     text-align: center;
+}
+
+.scooter_prayset
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0 30px;
+    margin-bottom: 13px;
+}
+
+.price_smoll
+{
+    text-decoration-line: line-through;
+    color: var(--grey);
+}
+
+.price_big
+{
+    font-size: 35px;
+    font-weight: 700;
+    color: var(--grey);
+}
+
+.scooter_prayset-text
+{
+    font-weight: 600;
+    color: var(--blue);
+    width: 412px;
+}
+
+.scooter_prayset-buttons
+{
+    display: flex;
+    gap: 0 22px;
+}
+
+.scooter_prayset-btn
+{
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--white);
+    background-color: var(--blue);
+    width: 240px;
+    height: 48px;
+}
+
+.scooter_pay-text
+{
+    color: var(--grey-2);
+    margin-bottom: 8px;
+}
+
+.scooter-text
+{
+    font-weight: 600;
+    color: var(--blue);
+}
+
+.scooter-doct
+{
+    font-weight: 600;
+    color: black;
+}
+
+.scooter-now
+{
+    font-weight: 600;
+    color: var(--green);
+}
+
+.scooter_pay-list
+{
+    display: flex;
+    gap: 0 6px;
+}
+
+.scooter_bg
+{
+    margin-top: 14px;
 }
