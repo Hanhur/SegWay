@@ -1,3 +1,7 @@
+.section-impressive
+{
+    margin-bottom: 43px;
+}
 .section-impressive-img
 {
     background-image: url(../img/impressive/impressive-bg.png);
@@ -19,6 +23,7 @@
     font-weight: 700;
     text-align: center;
     margin-bottom: 82px;
+    color: var(--grey);
 }
 .impressive-inner
 {

@@ -1,0 +1,27 @@
+.kickscooter-title
+{
+    font-size: 50px;
+    font-weight: 700;
+    color: var(--grey);
+    text-transform: uppercase;
+    text-align: center;
+}
+.kickscooter-blok
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.kickscooter-box-1
+{
+    display: flex;
+    flex-direction: column;
+    gap: 15px 0;
+}
+.kickscooter-box-2
+{
+    display: flex;
+    flex-direction: column;
+    gap: 15px 0;
+    text-align: right;
+}
