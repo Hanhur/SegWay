@@ -49,7 +49,7 @@
     background-image: url(../img/kickscooter/kickscooter-box-1/vector-3.svg);
     background-repeat: no-repeat;
     background-position: left top;
-    top: 135px;
+    top: 140px;
     right: 0;
     left: 120px;
     bottom: 0;
@@ -61,7 +61,7 @@
     background-image: url(../img/kickscooter/kickscooter-box-1/vector-4.svg);
     background-repeat: no-repeat;
     background-position: left center;
-    top: -145px;
+    top: -150px;
     right: 0;
     left: 95px;
     bottom: 0;
@@ -73,7 +73,7 @@
     background-image: url(../img/kickscooter/kickscooter-box-1/vector-5.svg);
     background-repeat: no-repeat;
     background-position: left center;
-    top: 75px;
+    top: 65px;
     right: 0;
     left: 180px;
     bottom: 0;
@@ -85,7 +85,7 @@
     background-image: url(../img/kickscooter/kickscooter-box-1/vector-6.svg);
     background-repeat: no-repeat;
     background-position: left center;
-    top: 145px;
+    top: 130px;
     right: 0;
     left: 170px;
     bottom: 0;
@@ -97,7 +97,7 @@
     background-image: url(../img/kickscooter/kickscooter-box-1/vector-7.svg);
     background-repeat: no-repeat;
     background-position: left center;
-    top: 270px;
+    top: 250px;
     right: 0;
     left: 100px;
     bottom: 0;
@@ -109,7 +109,7 @@
     background-image: url(../img/kickscooter/kickscooter-box-1/vector-8.svg);
     background-repeat: no-repeat;
     background-position: left center;
-    top: 360px;
+    top: 335px;
     right: 0;
     left: 110px;
     bottom: 0;
@@ -150,7 +150,7 @@
 {
     display: flex;
     flex-direction: column;
-    gap: 18px 0;
+    gap: 15px 0;
     padding-top: 50px;
 }
 .kickscooter-box-2
