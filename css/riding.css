@@ -1,0 +1,27 @@
+.section-riding
+{
+    background-image: url(../img/Ninebot-Segway-KickScooter-MAX-G30-2.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    width: 100%;
+    height: 547px;
+    background-color: var(--color-bg);
+}
+.riding-box
+{
+    padding: 190px 0;
+}
+.riding-title
+{
+    font-size: 50px;
+    font-weight: 700;
+    color: var(--white);
+    text-transform: uppercase;
+    margin-bottom: 18px;
+}
+.riding-text
+{
+    font-size: 18px;
+    color: var(--white);
+    width: 417px;
+}
