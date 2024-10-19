@@ -6,6 +6,11 @@
     text-transform: uppercase;
     text-align: center;
 }
+.kickscooter-text
+{
+    font-size: 18px;
+    color: var(--grey-2);
+}
 .kickscooter-blok
 {
     display: flex;
