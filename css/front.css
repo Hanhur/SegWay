@@ -15,9 +15,10 @@
 {
     font-size: 50px;
     font-weight: 700;
-    width: 387px;
+    width: 400px;
     color: var(--white);
     margin-bottom: 18px;
+    text-transform: uppercase;
 }
 .front-text
 {
