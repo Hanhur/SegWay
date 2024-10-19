@@ -1,0 +1,33 @@
+.section-front
+{
+    background-image: url(../img/segway-ninebot.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    width: 100%;
+    height: 550px;
+    background-color: var(--color-bg);
+}
+.front-box
+{
+    padding: 150px 0;
+} 
+.front-title
+{
+    font-size: 50px;
+    font-weight: 700;
+    width: 387px;
+    color: var(--white);
+    margin-bottom: 18px;
+}
+.front-text
+{
+    font-size: 18px;
+    width: 596px;
+    color: var(--white);
+    margin-bottom: 20px;
+}
+.front_text
+{
+    font-size: 18px;
+    color: var(--grey);
+}
