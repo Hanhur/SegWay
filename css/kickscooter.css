@@ -16,12 +16,142 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
 }
+.electronic::after
+{
+    content: '';
+    position: absolute;
+    background-image: url(../img/kickscooter/kickscooter-box-1/vector-1.svg);
+    background-repeat: no-repeat;
+    background-position: left top;
+    top: 77px;
+    right: 0;
+    left: 160px;
+    bottom: 0;
+}
+.bell::after
+{
+    content: '';
+    position: absolute;
+    background-image: url(../img/kickscooter/kickscooter-box-1/vector-2.svg);
+    background-repeat: no-repeat;
+    background-position: left top;
+    top: 115px;
+    right: 0;
+    left: 40px;
+    bottom: 0;
+}
+.brake::after
+{
+    content: '';
+    position: absolute;
+    background-image: url(../img/kickscooter/kickscooter-box-1/vector-3.svg);
+    background-repeat: no-repeat;
+    background-position: left top;
+    top: 135px;
+    right: 0;
+    left: 120px;
+    bottom: 0;
+}
+.headlight::after
+{
+    content: '';
+    position: absolute;
+    background-image: url(../img/kickscooter/kickscooter-box-1/vector-4.svg);
+    background-repeat: no-repeat;
+    background-position: left center;
+    top: -145px;
+    right: 0;
+    left: 95px;
+    bottom: 0;
+}
+.quick::after
+{
+    content: '';
+    position: absolute;
+    background-image: url(../img/kickscooter/kickscooter-box-1/vector-5.svg);
+    background-repeat: no-repeat;
+    background-position: left center;
+    top: 75px;
+    right: 0;
+    left: 180px;
+    bottom: 0;
+}
+.folding::after
+{
+    content: '';
+    position: absolute;
+    background-image: url(../img/kickscooter/kickscooter-box-1/vector-6.svg);
+    background-repeat: no-repeat;
+    background-position: left center;
+    top: 145px;
+    right: 0;
+    left: 170px;
+    bottom: 0;
+}
+.front::after
+{
+    content: '';
+    position: absolute;
+    background-image: url(../img/kickscooter/kickscooter-box-1/vector-7.svg);
+    background-repeat: no-repeat;
+    background-position: left center;
+    top: 270px;
+    right: 0;
+    left: 100px;
+    bottom: 0;
+}
+.drum::after
+{
+    content: '';
+    position: absolute;
+    background-image: url(../img/kickscooter/kickscooter-box-1/vector-8.svg);
+    background-repeat: no-repeat;
+    background-position: left center;
+    top: 360px;
+    right: 0;
+    left: 110px;
+    bottom: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .kickscooter-box-1
 {
     display: flex;
     flex-direction: column;
-    gap: 20px 0;
+    gap: 18px 0;
+    padding-top: 50px;
 }
 .kickscooter-box-2
 {
@@ -29,4 +159,8 @@
     flex-direction: column;
     gap: 20px 0;
     text-align: right;
+}
+.kickscooter-img
+{
+    padding-top: 45px;
 }
