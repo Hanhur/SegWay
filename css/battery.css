@@ -1,0 +1,27 @@
+.section-battery
+{
+    background-image: url(../img/MAX-G30_battery.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: var(--color-bg);
+    width: 100%;
+    height: 547px;
+}
+.battery-box
+{
+    padding: 153px 0;
+}
+.battery-title
+{
+    font-size: 50px;
+    font-weight: 700;
+    width: 553px;
+    color: var(--white);
+    margin-bottom: 18px;
+}
+.battery-text
+{
+    font-size: 18px;
+    width: 558px;
+    color: var(--white);
+}
