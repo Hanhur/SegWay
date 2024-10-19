@@ -1,0 +1,67 @@
+.section-manual
+{
+    background-color: var(--white);
+    padding: 90px 0;
+    position: relative;
+}
+.manual-blok
+{
+    display: flex;
+    justify-content: flex-end;
+    border: 5px solid var(--blue);
+    height: 330px;
+    padding: 38px 52px 36px 0;
+}
+.manual-blok::after
+{
+    content: '';
+    position: absolute;
+    background-image: url(../img/manual/manual.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    top: -35px;
+    right: 0;
+    left: 80px;
+    bottom: 0;
+}
+.manual_box
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0 12px;
+    margin-bottom: 30px;
+}
+.manual__box-element
+{
+    display: flex;
+    gap: 0 12px;
+}
+.manual-title
+{
+    font-size: 50px;
+    font-weight: 700;
+    color: var(--grey);
+    text-transform: uppercase;
+    margin-bottom: 17px;
+    width: 300px;
+}
+.manual__box-element-text
+{
+    font-size: 16px;
+    width: 158px;
+}
+.manual-box-btn
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--blue);
+    text-transform: uppercase;
+    padding: 7px 12px 7px 19px;
+    gap: 0 37px;
+}
+.manual-img
+{
+    width: 100vw;
+}
