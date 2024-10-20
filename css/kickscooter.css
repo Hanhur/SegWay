@@ -31,6 +31,10 @@
     left: 160px;
     bottom: 0;
 }
+.electronic
+{
+    color: var(--blue);
+}
 .bell::after
 {
     content: '';
