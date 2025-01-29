@@ -1,0 +1,68 @@
+.section-smartphone
+{
+    background-color: rgba(255, 255, 255, 20%);
+    margin-bottom: 40px;
+}
+.smartphone-title
+{
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 16px;
+    color: var(--grey);
+}
+.smartphone-text
+{
+    font-size: 18px;
+    color: var(--grey);
+    text-align: center;
+    width: 810px;
+    margin: 0 auto 50px;
+}
+.smartphone-block
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0 36px;
+}
+.smartphone-box
+{
+    margin-left: 200px;
+}
+.smartphone-list
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 17px 20px;
+    margin-bottom: 26px;
+}
+.smartphone-link
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px 0;
+}
+.smastphone_text
+{
+    color: #cccccc;
+    width: 75px;
+    text-align: center;
+}
+.smartphone-card
+{
+    display: flex;
+    justify-content: center;
+    gap: 0 20px;
+}
+.smartphone-card-img
+{
+    width: 135px;
+}
+.smartphone-block-img
+{
+    width: 634px;
+}
