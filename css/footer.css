@@ -1,0 +1,21 @@
+.footer
+{
+    background-color: var(--grey-3);
+}
+.footer-block
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 21px 0;
+}
+.footer-link
+{
+    margin-right: 200px;
+}
+.footer-box
+{
+    display: flex;
+    gap: 0 44px;
+    color: var(--white);
+}
