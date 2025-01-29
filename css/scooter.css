@@ -27,6 +27,14 @@
     line-height: 87%;
     margin-bottom: 13px;
 }
+.segway-title
+{
+    width: 750px;
+}
+.segway-img
+{
+    margin-left: -165px;
+}
 
 .scooter_box
 {
@@ -96,7 +104,7 @@
 {
     font-weight: 600;
     color: var(--blue);
-    width: 412px;
+    width: 145px;
 }
 
 .scooter_prayset-buttons
